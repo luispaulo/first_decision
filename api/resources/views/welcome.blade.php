@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Usuário</title>
 
-    {{-- <link rel="stylesheet" href="styles.css"> --}}
+    {{-- <link rel="stylesheet" href="../styles.css"> --}}
     <style>
         body {
             display: flex;
@@ -79,7 +79,7 @@
 </head>
 <body>
     <div class="form-container">
-        <h1>Cadastro de Usuário</h1>
+        <h1>Cadastro de Usuário<br/>First Decision</h1>
         <form action="{{ route('register.store') }}" method="POST">
             @csrf
             <label for="name">Nome:</label>

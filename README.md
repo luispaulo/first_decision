@@ -6,7 +6,7 @@
 </h1>
 
 <p align="center">
-  <a href="https://www.firstdecision.com.br/">First Decision</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://www.firstdecision.com.br/">First Decision</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
 
@@ -62,7 +62,7 @@ Banco de dados Postgresql em docker, pronto para ser utilizado no Desafio.
 2. `composer Install`
 3. `php artisan key:generate`
 4. `php artisan migrate`
-5. Executar com o comando: `php artisan serve`
+5. Executar com o comando: <br/>`php artisan serve`
 
 ### Rotas já criadas:
 
@@ -81,7 +81,9 @@ Banco de dados Postgresql em docker, pronto para ser utilizado no Desafio.
 
 ### Executando testes:
 
-Execute o comando `php artisan test --filter=RegisterServiceTest`
+Acesse a pasta api:
+Execute o comando 
+`php artisan test --filter=RegisterServiceTest`
 
 
 ## Extras

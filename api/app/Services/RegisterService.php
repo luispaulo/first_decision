@@ -14,6 +14,16 @@ class RegisterService
             'name' => 'required|string|min:3|max:50',
             'email' => 'required|email',
             'password' => 'required|string|min:6|max:20|confirmed',
+        ], [
+            'name.required' => 'O campo nome é obrigatório.',
+            'name.min' => 'O nome deve ter pelo menos 3 caracteres.',
+            'name.max' => 'O nome não pode ter mais de 50 caracteres.',
+            'email.required' => 'O campo e-mail é obrigatório.',
+            'email.email' => 'Insira um endereço de e-mail válido.',
+            'password.required' => 'O campo senha é obrigatório.',
+            'password.min' => 'A senha deve ter no mínimo 6 caracteres.',
+            'password.max' => 'A senha não pode ter mais de 20 caracteres.',
+            'password.confirmed' => 'A confirmação de senha não corresponde.',
         ]);
 
         if ($validator->fails()) {
