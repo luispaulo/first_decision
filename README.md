@@ -66,9 +66,9 @@ Banco de dados Postgresql em docker, pronto para ser utilizado no Desafio.
 
 ### Rotas já criadas:
 
-1. / -  Cadastro de usuario pelo Blade
-2. /api/ - Teste a API
-3. /api/register - Grava o usuario
+1. / -   Cadastro de usuario pelo Blade
+2. /api/ -  GET | Teste da API
+3. /api/register -  POST | Grava o usuario
    **Exemplo de JSON utilizado na API**:  
    ```json
    {
@@ -77,7 +77,8 @@ Banco de dados Postgresql em docker, pronto para ser utilizado no Desafio.
        "password": "senha123",
        "password_confirmation": "senha123"
    }
-4. /api/users - Lista os usuarios gravados
+4. /api/users -  GET | Lista os usuarios gravados
+
 
 ### Executando testes:
 
@@ -86,12 +87,6 @@ Execute o comando
 `php artisan test --filter=RegisterServiceTest`
 
 
-## Extras
-
-- Exibir lista de usuarios: <br/>
-- Estrutura de pastas e organização do código;
-- Seguir os padrões do Laravel sempre que possível, especialmente na criação de: Rotas, Migrations, Models, Controllers;
-- Seguir o padrão REST para as rotas da API;
-- Manter o histórico dos commits e utilizar Conventional Commits Pattern.
-- utilizar swagger para teste das rotas
-# first_decision
+# LUIS PAULO 
+- luispaulolpsn@gmail.com
+- +55 61 98248-1004
