@@ -45,7 +45,7 @@ PostgreSQL.
 ## 🔧 Configuração do ambiente
 
 ### DB
-Banco de dados Postgresql em docker, pronto para ser utilizado no Desafio.
+Banco de dados Postgresql em docker pelo laravel
 
 #### Iniciando docker:
 - acesse a pasta DB e execute o comando abaixo:
