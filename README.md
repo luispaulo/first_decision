@@ -67,16 +67,17 @@ Banco de dados Postgresql em docker, pronto para ser utilizado no Desafio.
 ### Rotas já criadas:
 
 1. / -  Cadastro de usuario pelo Blade
-1. /api/ - Teste a API
-2. /api/register - Grava o usuario
-json utilizado na api:
- `{`
-    `"name": "João Silva 3",`
-    `"email": "joao.silva3@example.com",`
-   ` "password": "senha123",`
-    `"password_confirmation": "senha123"`
-  `}`
-3. /api/users - Lista os usuarios gravados
+2. /api/ - Teste a API
+3. /api/register - Grava o usuario
+   **Exemplo de JSON utilizado na API**:  
+   ```json
+   {
+       "name": "João Silva 3",
+       "email": "joao.silva3@example.com",
+       "password": "senha123",
+       "password_confirmation": "senha123"
+   }
+4. /api/users - Lista os usuarios gravados
 
 ### Executando testes:
 
